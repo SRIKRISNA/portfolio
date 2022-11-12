@@ -1,0 +1,46 @@
+body{
+    
+}
+#myphoto{
+    border-radius: 50%;
+}
+.profilePic{
+    margin-left: 10vw;
+    transform: scale3d(1.5, 1.5, 1.5);
+    margin-top: 10%;
+}
+.container{
+    display: flex;
+    align-items: left !important;
+    justify-content: left !important;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+}
+.myInfo{
+    text-align: left;
+}
+button, img{
+    cursor: pointer;
+    margin-right: 20px;
+}
+button{
+    padding: 7px 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: #345a6d;
+    color: #fff;
+}
+title{
+    color: greenyellow;
+}
+
+/* dark mode */
+.dark{
+    color: white;
+    background-color: black;
+}
+#btnDark{
+    float: right;
+    margin: 10px;
+}
