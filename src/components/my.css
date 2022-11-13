@@ -1,46 +1,83 @@
-body{
-    
+body {
+    margin: 0;
+    padding: 0;
 }
-#myphoto{
+
+#myphoto {
     border-radius: 50%;
 }
-.profilePic{
-    margin-left: 10vw;
-    transform: scale3d(1.5, 1.5, 1.5);
-    margin-top: 10%;
+
+.profilePic {
+    /* transform: scale3d(1.5, 1.5, 1.5); */
 }
-.container{
-    display: flex;
-    align-items: left !important;
-    justify-content: left !important;
-    position: fixed;
-    top: 25%;
-    left: 25%;
+
+.container {
+    margin-top: 60px;
 }
-.myInfo{
-    text-align: left;
-}
-button, img{
+
+.myInfo {}
+
+button,
+img {
     cursor: pointer;
     margin-right: 20px;
 }
-button{
-    padding: 7px 15px;
-    border-radius: 30px;
+
+button {
+    padding: 10px 30px;
+    border-radius: 80px 0px 0px;
     border: none;
     background-color: #345a6d;
     color: #fff;
 }
-title{
-    color: greenyellow;
-}
 
 /* dark mode */
-.dark{
+.dark {
     color: white;
     background-color: black;
 }
-#btnDark{
-    float: right;
-    margin: 10px;
+
+#btnDark {
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    margin-right: 0px;
+}
+
+/* desk view only */
+@media screen and (min-width: 900px) {
+    .container {
+        flex-direction: row-reverse;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 120px;
+    }
+
+    .profilePic {
+        /* width: 50%; */
+        margin-left: 10vw;
+    }
+
+}
+
+/* mobile view only */
+@media screen and (max-width: 899px) {
+    body {
+        /* background-color: blue; */
+    }
+
+    /* #myphoto-mbl{
+        transform: scale3d(2.0, 2.0, 2.0);
+        border-radius: 50%;
+        margin: 160px 15px 40px 10px ;
+    }
+    .container{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .myInfo {
+        margin-top: 70px;
+    } */
 }

@@ -30,10 +30,12 @@ function FrontPage() {
     }, [darkMode]);
 
     return (
-        <>
-            <button onClick={() => { setDarkMode(!darkMode) }} id='btnDark'>Dark / White Mode</button>
+        <> 
 
             <div className='container'>
+                <div className="profilePic">
+                    <img src={pic} id="myphoto" width="auto" height="300px" />
+                </div>
                 <div className="myInfo">
                     <h1>Hello, I'm <span style={{ color: "#345a6d" }}>Srikrishna</span></h1>
                     <h3>I'm a Full Stack Developer</h3>
@@ -46,13 +48,15 @@ function FrontPage() {
                     <a href={resume} download><img src={download} alt="download resume" id="myIcons" width="auto" height="30px" title='Download Resume' /></a>
                     <a href="https://wa.me/9901437129" target='_blank'><img src={whatsapp} alt="WhatsApp Me" id="myIcons" width="auto" height="30px" title='WhatsApp' /></a>
                     <a href="tel:9901437129" target='_blank'><img src={call} alt="Call Me" id="myIcons" width="auto" height="30px" title='Connect me on a call' /></a>
-
                 </div>
 
-                <div className="profilePic">
+                {/* <div className="profilePic">
                     <img src={pic} id="myphoto" width="auto" height="200px" />
-                </div>
+                </div> */}
 
+            </div>
+            <div>
+                <button onClick={() => { setDarkMode(!darkMode) }} id='btnDark'>Dark / White Mode</button>
             </div>
         </>
 
