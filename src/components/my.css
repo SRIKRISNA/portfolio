@@ -15,7 +15,10 @@ body {
     margin-top: 60px;
 }
 
-.myInfo {}
+.myInfo {
+    text-align: left;
+    display: inline-block;
+}
 
 button,
 img {
