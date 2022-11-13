@@ -56,7 +56,7 @@ function FrontPage() {
 
             </div>
             <div>
-                <button onClick={() => { setDarkMode(!darkMode) }} id='btnDark'>Dark / White Mode</button>
+                <button onClick={() => { setDarkMode(!darkMode) }} id='btnDark' title='DARK / WHITE'></button>
             </div>
         </>
 

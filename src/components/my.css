@@ -26,25 +26,21 @@ img {
     margin-right: 20px;
 }
 
-button {
-    padding: 10px 30px;
-    border-radius: 80px 0px 0px;
-    border: none;
-    background-color: #345a6d;
-    color: #fff;
-}
-
 /* dark mode */
 .dark {
     color: white;
     background-color: black;
 }
-
+.dark #btnDark{
+    background-color: white;
+}
 #btnDark {
-    bottom: 0;
+    top: 0;
     right: 0;
     position: fixed;
     margin-right: 0px;
+    padding: 15px;
+    background-color: #000;
 }
 
 /* desk view only */
