@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: black;
+    color: white;
 }
 
 #myphoto {
@@ -26,22 +28,43 @@ img {
     margin-right: 20px;
 }
 
+
 /* dark mode */
 .dark {
-    color: white;
-    background-color: black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
-.dark #btnDark{
-    background-color: white;
+
+.dark #btnDark {
+    background-color: rgb(0, 0, 0);
 }
+
 #btnDark {
     top: 0;
     right: 0;
     position: fixed;
     margin-right: 0px;
     padding: 15px;
-    background-color: #000;
+    background-color: rgb(255, 255, 255);
 }
+
+.proj_img {
+    border: 5px ridge;
+    border-radius: 20px;
+    margin-top: 10px;
+    border-color: red green yellow blue;
+}
+
+.proj_img:hover {
+    opacity: 0.4;
+}
+
+.profilePic {
+    /* width: 50%; */
+    margin-left: 10vw;
+}
+
+
 
 /* desk view only */
 @media screen and (min-width: 900px) {
@@ -50,22 +73,33 @@ img {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 120px;
+        margin-top: 60px;
+        width: 70%;
     }
 
-    .profilePic {
-        /* width: 50%; */
-        margin-left: 10vw;
+   
+    .projects {
+        width: 30%;
+    }
+    .con_ten {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
 
 }
 
 /* mobile view only */
 @media screen and (max-width: 899px) {
-    body {
-        /* background-color: blue; */
+    .con_ten {
+        flex-flow: column wrap;
+        display: flex;
+        flex-direction: column-reverse;
     }
-
+    .projects{
+        margin: 40px 0;
+    }
     /* #myphoto-mbl{
         transform: scale3d(2.0, 2.0, 2.0);
         border-radius: 50%;
