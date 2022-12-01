@@ -6,9 +6,9 @@ function Projects() {
     return (
         <div>
             <div><h2 style={{margin:"10px 0 0 0"}}>-- MY PROJECTS --</h2>
-                <a href='#'><img src={img1} className="proj_img" alt="portfolio" width="280px"></img></a>
-                <a href='https://instacloneclient.herokuapp.com/'> <img src={img3} className="proj_img" alt="portfolio" width="280px"></img></a>
-                <a href='#'><img src={img2} className="proj_img" alt="portfolio" width="280px"></img></a>
+                <a href='#' target="_blank"><img src={img1} className="proj_img" alt="portfolio" width="280px"></img></a>
+                <a href='https://instacloneclient.herokuapp.com/' target="_blank"> <img src={img3} className="proj_img" alt="portfolio" width="280px"></img></a>
+                <a href='http://movies.allwebsites.in/' target="_blank"><img src={img2} className="proj_img" alt="portfolio" width="280px"></img></a>
             </div>
         </div>
     )
