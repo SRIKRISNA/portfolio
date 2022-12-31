@@ -11,7 +11,7 @@ function App() {
     <div className='App'>
       <BrowserRouter >
         <Routes>
-          <Route index element={<FrontPage />} />
+          <Route path='/*' element={<FrontPage />} />
           <Route path='/beyondoil' element={<ComingSoon />} />
         </Routes>
       </BrowserRouter>
