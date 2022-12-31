@@ -6,9 +6,10 @@ import ComingSoon from './components/comingSoon';
 
 
 function App() {
+  PUBLIC_URL="https://srikrisna.github.io/portfolio/"
   return (
     <div className='App'>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path='/' element={<FrontPage />} />
           <Route path='/beyondoil' element={<ComingSoon />} />
