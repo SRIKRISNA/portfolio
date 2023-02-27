@@ -43,7 +43,7 @@ function FrontPage() {
                     <div className="myInfo">
                         <h1>Hello, I'm <span style={{ color: "#345a6d" }}>Srikrishna</span></h1>
                         <h3>I'm a Full Stack Developer</h3>
-                        <p><span style={{ color: "#345a6d", fontWeight: "bold" }}>Related Experience: </span>MERN (9 months)</p>
+                        <p><span style={{ color: "#345a6d", fontWeight: "bold" }}>Related Experience: </span>MERN (11 months)</p>
                         <p><span style={{ color: "#345a6d", fontWeight: "bold" }}>Front-End Experience: </span>1+ year</p>
                         <p><span style={{ color: "#345a6d", fontWeight: "bold" }}>Current Status: </span>Open to work (in India)</p>
                         <p><span style={{ color: "#345a6d", fontWeight: "bold" }}>Education: </span>MCA - 2018</p>
