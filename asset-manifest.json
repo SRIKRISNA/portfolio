@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bca2676c.css",
-    "main.js": "/portfolio/static/js/main.686c0fdf.js",
+    "main.js": "/portfolio/static/js/main.3ef47219.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/2.png": "/portfolio/static/media/2.349bccdc2a0d5fd72f08.png",
+    "static/media/Srikrishna-MERN.pdf": "/portfolio/static/media/Srikrishna-MERN.f68fac8ec853f142ce35.pdf",
     "static/media/3.png": "/portfolio/static/media/3.67af92dcf16635a0c836.png",
-    "static/media/Srikrishna-MERN.pdf": "/portfolio/static/media/Srikrishna-MERN.40692fcc24b4d8724408.pdf",
     "static/media/beyondOil.png": "/portfolio/static/media/beyondOil.6fdc17963207cd5f8d5f.png",
     "static/media/photo.jpg": "/portfolio/static/media/photo.2b90ff0c1f5830874626.jpg",
     "static/media/logo.png": "/portfolio/static/media/logo.202dcbf7081afc339d75.png",
@@ -15,11 +15,11 @@
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.d21b834035baa551e886.png",
     "index.html": "/portfolio/index.html",
     "main.bca2676c.css.map": "/portfolio/static/css/main.bca2676c.css.map",
-    "main.686c0fdf.js.map": "/portfolio/static/js/main.686c0fdf.js.map",
+    "main.3ef47219.js.map": "/portfolio/static/js/main.3ef47219.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bca2676c.css",
-    "static/js/main.686c0fdf.js"
+    "static/js/main.3ef47219.js"
   ]
 }
