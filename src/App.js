@@ -6,13 +6,12 @@ import ComingSoon from './components/comingSoon';
 
 
 function App() {
-  // const PUBLIC_URL="https://srikrisna.github.io/portfolio/"
   return (
     <div className='App'>
       <BrowserRouter >
         <Routes>
-          <Route path='/*' element={<FrontPage />} />
-          <Route path='beyondoil' element={<ComingSoon />} />
+          <Route index element={<FrontPage />} />
+          <Route path='/beyondoil' element={<ComingSoon />} />
         </Routes>
       </BrowserRouter>
     </div>
