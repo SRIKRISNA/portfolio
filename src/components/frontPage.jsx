@@ -5,7 +5,7 @@ import linkedin from '../assests/linkedin.png';
 import download from '../assests/download.png';
 import call from '../assests/call.png';
 import whatsapp from '../assests/whatsapp.png';
-import resume from '../assests/Srikrishna-MERN.pdf';
+import resume from '../assests/SRIKRISHNA-MERN.pdf';
 
 import { useState } from 'react';
 import { useEffect } from 'react';
